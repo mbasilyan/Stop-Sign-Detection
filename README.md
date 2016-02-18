@@ -8,7 +8,7 @@ This code takes a "prototype" stop sign (stopPrototype.png) and creates a pyrami
 
 Run it like this: *python detectStopSigns.py -p stopPrototype.png -i Stop\ Sign\ Dataset/3.jpg*
 
-![Screenshot of Stop Sign Detector](screenshot.png)
+![Screenshot of Stop Sign Detector](https://raw.githubusercontent.com/mbasilyan/Stop-Sign-Detection/master/Screenshot.png)
 
 Dataset
 --------

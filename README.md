@@ -2,7 +2,7 @@ Stop Sign Detection
 =====================
 Prototype
 -----------
-Some quick prototype code to experiment with some old computer vision concepts and get some first time exposure to Open CV.  This is was one my early python projects so it's probably not very Pythonic.
+Some quick prototype code to experiment with some old computer vision concepts and get some first time exposure to Open CV.  This was one my early python projects so it's probably not very Pythonic.
 
 This code takes a "prototype" stop sign (stopPrototype.png) and creates a pyramid out of it by downsampling (read more here: https://en.wikipedia.org/wiki/Pyramid_(image_processing)) then it slides the pyramid one slice at a time over the target image, computing the mean square error. The slice with the mean square error is determined to be the stop sign. Actually works ok!
 
